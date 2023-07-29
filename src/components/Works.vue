@@ -45,7 +45,7 @@ import { ref } from 'vue';
 const projects1 = ref([
     {
         title: 'Aperture',
-        img: './src/assets/img/Aperture.png',
+        img: require('@/assets/img/Aperture.png'),
         subtitle: 'Photo studios, portfolio',
         url: 'https://prdz14.github.io/Aperture/'
     },

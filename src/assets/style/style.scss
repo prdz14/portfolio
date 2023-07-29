@@ -13,9 +13,9 @@ body {
 }
 
 :root {
-  --white: #fff;
+  --bg: #fff;
   --black: #000;
-  --grey: #777;
+  --gray: #777;
 }
 
 a {
@@ -29,7 +29,7 @@ li {
 body {
   font-family: 'Rubik';
   font-weight: 500;
-  background: var(--white);
+  background: var(--bg);
 }
 
 button {
@@ -56,7 +56,7 @@ button {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: var(--white);
+  background-color: var(--bg);
 
   & .container {
     display: flex;
@@ -169,7 +169,7 @@ button {
   }
 
   &_txt {
-    color: var(--grey);
+    color: var(--gray);
     font-family: 'Roboto';
     font-size: 15px;
     font-weight: 400;
@@ -199,7 +199,7 @@ button {
   }
 
   &_subtitle {
-    color: var(--grey);
+    color: var(--gray);
     max-width: 515px;
     margin: auto;
     text-align: center;
@@ -233,7 +233,7 @@ button {
     }
 
     & p {
-      color: var(--grey);
+      color: var(--gray);
       font-family: 'Roboto';
       font-size: 15px;
       font-weight: 400;
@@ -323,7 +323,7 @@ button {
         }
 
         & p {
-          color: #777;
+          color: var(--gray);
           font-family: 'Roboto';
           font-size: 15px;
           font-weight: 400;
@@ -331,7 +331,7 @@ button {
         }
 
         & a {
-          color: var(--white);
+          color: var(--bg);
           margin: 8px 0 2px;
           font-family: 'Rubik';
           padding: 6px 12px;
