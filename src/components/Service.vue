@@ -25,7 +25,7 @@ import service4 from '@/assets/img/service4.png'
 const services = ref([
     {
         img: service1,
-        title: 'Wp developing',
+        title: 'Wp developingSSdasdas',
         txt: 'Creeping for female light years that lesser cant evening heaven isnt bearing tree',
     },
     {
