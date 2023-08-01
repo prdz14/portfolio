@@ -17,25 +17,29 @@
 
 <script setup>
 import { ref } from 'vue';
+import service1 from '@/assets/img/service1.png'
+import service2 from '@/assets/img/service2.png'
+import service3 from '@/assets/img/service3.png'
+import service4 from '@/assets/img/service4.png'
 
 const services = ref([
     {
-        img: 'src/assets/img/service1.png',
+        img: service1,
         title: 'Wp developing',
         txt: 'Creeping for female light years that lesser cant evening heaven isnt bearing tree',
     },
     {
-        img: 'src/assets/img/service2.png',
+        img: service2,
         title: 'vue',
         txt: 'Creeping for female light years that lesser cant evening heaven isnt bearing tree',
     },
     {
-        img: 'src/assets/img/service3.png',
+        img: service3,
         title: 'github',
         txt: 'Creeping for female light years that lesser cant evening heaven isnt bearing tree',
     },
     {
-        img: 'src/assets/img/service4.png',
+        img: service4,
         title: 'sass',
         txt: 'Creeping for female light years that lesser cant evening heaven isnt bearing tree',
     },
