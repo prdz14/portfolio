@@ -41,7 +41,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import Aperture from '@/assets/img/Aperture.png';
+import Aperture from '/src/assets/img/Aperture.png';
 import TourTravel from '@/assets/img/Tour-Travel.png';
 import VueCinema from '@/assets/img/King-kong.jpg';
 import Education from '@/assets/img/Education.jpg';
